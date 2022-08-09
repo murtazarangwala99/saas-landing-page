@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto",sans-serif;
+}
+nav{
+    display: flex;
+    background-color: #7030CC;
+    padding: 2rem 10%;
+    border-radius: 60px 60px 0 0;
+}
+.nav-left img{
+    width: 6.2rem;
+    margin-right: 12rem;
+}
+.nav-right{
+    display: flex;
+    margin: 0.5rem 8rem;
+}
+.list-items{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.nav-btn{
+    background-color: #1B98F5;
+    color: #ffffff;
+    padding: 1.2rem 2.4rem;
+    margin: -10px 0;
+}
+/* Hero Section One */
+.hero-one{
+    display: flex;
+    padding: 3.3rem 10%;
+    background-color: #7030CC;
+    color: #ffffff;
+    gap: 14rem;
+}
+.hero-one-left{
+    margin-top: 3.5rem;
+    width: 50%;
+}
+.hero-one-left h2{
+    font-size: 3.7rem;
+}
+.hero-one-left p{
+    width: 70%;
+    margin-top: 1.5rem;
+    line-height: 25px;
+    font-size: 0.8rem;
+}
+.hero-one-right{
+    width: 50%;
+}
+.hero-one-right img{
+    height: 450px;
+    width: 35rem;
+    height: 34rem;
+}
+/* Hero Two */
+.hero-two{
+    display: flex;
+    margin: 4rem 0;
+    padding: 3.3rem 10%;
+    width: 70%;
+    gap: 6rem;
+}
+.two-heading h2{
+    font-size: 2.5rem;
+    margin: 5rem 0 2rem 0;
+    font-weight: 800;
+}
+.card-head{
+    display: flex;
+    gap: 1rem;
+}
+.card-head h3{
+    margin-top: 2px;
+    font-size: 22px;
+    font-weight: 800;
+}
+.card{
+    padding: 1.2rem 1rem;
+}
+.card p{
+    margin-left: 48px;
+    margin-bottom: 20px;
+}
+.card-head img{
+    width: 30px;
+    height: 35px;
+}
+/* Hero Three */
+.hero-three-heading {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 800;
+    width: 40%;
+    margin-left: 30%;
+}
+.hero-three-cards{
+    padding: 3.3rem 10%;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.card-three{
+    box-shadow: #00000073 0px 10px 30px;
+    text-align: center;
+}
+.card-three img{
+    padding: 4rem 2rem;
+    width: 75px;
+}
+.card-three h3{
+    font-size: 26px;
+    padding: 1rem;
+}
+.card-three p{
+    font-size: 20px;
+    padding: 1rem;
+}
+.active-card{
+    background-color: #7030CC;
+    border-radius: 25px;
+    color: #ffffff;
+}
