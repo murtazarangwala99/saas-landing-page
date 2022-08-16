@@ -1,0 +1,96 @@
+/* 1280px */
+@media screen and (max-width:1310px) {
+    .nav-left img{
+        margin-right: 1rem;
+    }
+}
+/* 1120px */
+@media screen and (max-width:1120px) {
+    .list-items{
+        gap: 2rem;
+        flex-wrap: wrap
+    }
+    .nav-right{
+        margin: 0.5rem 1rem;
+    }
+    .nav-btn{
+        padding: 1.2rem 1rem;
+        margin: 0;
+    }
+    .hero-one{
+        flex-wrap: wrap-reverse;
+        gap: 1rem;
+    }
+    .hero-one-left{
+        margin-top: 1rem;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .hero-one-left h2{
+        font-size: 3rem;
+    }
+    .hero-one-right{
+        width: 90%;
+        margin-left: 10%;
+    }
+    .hero-one-right img{
+        width: 100%;
+    }
+    .hero-two{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .hero-two-left{
+        width: 90%;
+    }
+    .hero-two-left img{
+        width: 100%;
+    }
+    .two-heading h2{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .card p{
+        width: 80%;
+    }
+    .hero-three-heading {
+        font-size: 1.5rem;
+        margin-left: 15%;
+        width: 60%;
+    }
+    .hero-three-cards{
+        padding: 3rem 10%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-three img{
+        padding: 3rem 2rem;
+        width: 50px;
+    }
+    .card-three h3{
+        font-size: 1.6rem;
+    }
+    .card-three p{
+        font-size: 1.2rem;
+    }
+    .active-card{
+        background-color: #7030CC;
+        border-radius: 25px;
+        color: #ffffff;
+    }
+    .card-three:last-child{
+        margin-bottom: 2rem;
+    }
+}
+
+/* 835px */
+@media screen and (max-width:835px) {
+    .nav-btn{
+        padding: 0.5rem;
+    }
+    nav{
+        justify-content: left;
+    }
+
+}
